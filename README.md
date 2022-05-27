@@ -9,13 +9,13 @@ If you are new at modding then it might just confuse you so we will remove them.
 
 All that will be left is this:
 ```
-**@Mod("examplemod")
+@Mod("examplemod")
 public class ExampleMod
 {
     public ExampleMod()
     {
     }
-}**
+}
 ```
 
 ###Whats new here?
@@ -35,7 +35,7 @@ When you are creating your mod you will have to write out your modid many times 
 @Mod("examplemod")
 public class ExampleMod
 {
-    **public static final String MODID = "examplemod";**
+    public static final String MODID = "examplemod";
     
     public ExampleMod()
     {
@@ -53,7 +53,7 @@ If you want to change your modid in the future you will only have to change this
 **NEXT: Use our MODID variable for the first time**
 
 ```
-**@Mod(ExampleMod.MODID)**
+@Mod(ExampleMod.MODID)
 public class ExampleMod
 {
     public static final String MODID = "examplemod";
@@ -68,14 +68,14 @@ SUCCESS!
 
 Next we will write this in our constructor:
 ```
-**@Mod(ExampleMod.MODID)**
+@Mod(ExampleMod.MODID)
 public class ExampleMod
 {
     public static final String MODID = "examplemod";
     
     public ExampleMod()
     {
-        **Registrations.init();**
+        Registrations.init();
     }
 }
 ```
