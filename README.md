@@ -1,5 +1,6 @@
 # 1. Simple Item
- First we will create a new simple item for our tutorial mod.
+![This is an image](https://minecraftserverzone.com/modimgs/tutorialmod/1.png)
+First we will create a new simple item for our tutorial mod.
 **If you are new to programming then i recommend you to read this!**
  Here i will explain what we did and why.
  
