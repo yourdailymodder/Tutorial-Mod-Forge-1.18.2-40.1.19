@@ -1,9 +1,9 @@
 # 1. Simple Item
  First we will create a new simple item for our tutorial mod.
-** If you are new to programming then i recommend you to read this!**
+**If you are new to programming then i recommend you to read this!**
  Here i will explain what we did and why.
  
-##1. Removing unnecessary codes
+## 1. Removing unnecessary codes
 In this tutorial series most of the codes that forge gave us in their example mod is not needed.
 If you are new at modding then it might just confuse you so we will remove them.
 
@@ -82,7 +82,7 @@ public class ExampleMod
 This means we want to call a method named init from the Registrations class!
 This class does not exist, so we have to create it.
 
-##3. Item registrations
+## 3. Item registrations
 The registrations class with its init method will look like this:
 ```
 public class Registrations {
@@ -152,7 +152,7 @@ public class Registrations {
 	
 }
 ```
-
+## 4. language, model and texture
 We are almost DONE!
 **Now we need some new folders:**
 in the src/main/resources/ folder
