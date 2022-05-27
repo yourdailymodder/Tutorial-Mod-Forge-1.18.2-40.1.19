@@ -18,8 +18,8 @@ public class ExampleMod
 }
 ```
 
-###Whats new here?
-######@Mod("examplemod")
+### Whats new here?
+###### @Mod("examplemod")
 The @Mod will help you to define a Mod to the Forge Mod Loader **(FML in the future)**
  * Any class found with this annotation applied will be loaded as a Mod. The instance that is loaded will
    represent the mod to other Mods in the system. It will be sent various subclasses of {@code ModLifecycleEvent}
@@ -29,7 +29,7 @@ This means the String that you write after @Mod will be the unique identifier fo
 This unique identifier will be your **modid**
 **WARNING: You have to use lower case letters here!
 
-##2. Changing the ExampleMod class
+## 2. Changing the ExampleMod class
 When you are creating your mod you will have to write out your modid many times because of that we will create a new String variable.
 ```
 @Mod("examplemod")
